@@ -1,9 +1,9 @@
 import '../src/Styles/App.css';
-
+import Nav from './Components/Core/Nav/Nav';
 function App() {
   return (
     <div className="App">
-      <h1>ABLETON</h1>
+      <Nav />
     </div>
   );
 }
